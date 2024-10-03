@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "45c6efb5-6289-4b70-b24d-fa6b40159572",
+		"name": "Suspention_Classification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1878453"
+	},
+	"item": [
+		{
+			"name": "get_all_results",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "search_user_result",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

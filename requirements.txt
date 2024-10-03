@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+phonenumbers
+pycountry_convert
+seaborn
+flask

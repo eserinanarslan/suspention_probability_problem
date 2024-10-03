@@ -1,0 +1,125 @@
+2024-10-02 17:39:44,473 - INFO - Starting the service and loading configuration.
+2024-10-02 17:39:44,473 - INFO - Loaded configuration file: config.ini
+2024-10-02 17:39:44,497 - INFO - CSV data loaded successfully.
+2024-10-02 17:39:44,541 - INFO - Data loaded from SQLite database.
+2024-10-02 17:39:44,549 - INFO - Column formatting applied successfully.
+2024-10-02 17:39:44,595 - INFO - Data successfully converted to JSON.
+2024-10-02 17:39:44,596 - INFO - Starting the Flask server.
+2024-10-02 17:39:44,633 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1001
+ * Running on http://192.168.1.2:1001
+2024-10-02 17:39:44,634 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-02 17:39:44,634 - INFO -  * Restarting with stat
+2024-10-02 17:39:44,891 - INFO - Starting the service and loading configuration.
+2024-10-02 17:39:44,892 - INFO - Loaded configuration file: config.ini
+2024-10-02 17:39:44,915 - INFO - CSV data loaded successfully.
+2024-10-02 17:39:44,960 - INFO - Data loaded from SQLite database.
+2024-10-02 17:39:44,967 - INFO - Column formatting applied successfully.
+2024-10-02 17:39:45,013 - INFO - Data successfully converted to JSON.
+2024-10-02 17:39:45,015 - INFO - Starting the Flask server.
+2024-10-02 17:39:45,031 - WARNING -  * Debugger is active!
+2024-10-02 17:39:45,084 - INFO -  * Debugger PIN: 864-681-636
+2024-10-02 17:39:59,247 - INFO - GET request received at /get_all_results
+2024-10-02 17:39:59,250 - INFO - 127.0.0.1 - - [02/Oct/2024 17:39:59] "GET /get_all_results HTTP/1.1" 200 -
+2024-10-02 17:40:00,393 - INFO - GET request received at /get_all_results
+2024-10-02 17:40:00,398 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:00] "GET /get_all_results HTTP/1.1" 200 -
+2024-10-02 17:40:06,639 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:06,639 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 requested.
+2024-10-02 17:40:06,644 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 found.
+2024-10-02 17:40:06,644 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:06] "GET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4 HTTP/1.1" 200 -
+2024-10-02 17:40:07,419 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:07,420 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 requested.
+2024-10-02 17:40:07,421 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 found.
+2024-10-02 17:40:07,421 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:07] "GET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4 HTTP/1.1" 200 -
+2024-10-02 17:40:11,358 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:11,358 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4--- requested.
+2024-10-02 17:40:11,361 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4--- not found.
+2024-10-02 17:40:11,361 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:11] "[33mGET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4--- HTTP/1.1[0m" 404 -
+2024-10-02 17:40:17,215 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:17,215 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4- requested.
+2024-10-02 17:40:17,221 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4- not found.
+2024-10-02 17:40:17,221 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:17] "[33mGET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4- HTTP/1.1[0m" 404 -
+2024-10-02 17:40:23,128 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:23,129 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 requested.
+2024-10-02 17:40:23,138 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 found.
+2024-10-02 17:40:23,139 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:23] "GET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4 HTTP/1.1" 200 -
+2024-10-02 17:40:26,439 - INFO - GET request received at /search_user_result
+2024-10-02 17:40:26,439 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 requested.
+2024-10-02 17:40:26,446 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 found.
+2024-10-02 17:40:26,446 - INFO - 127.0.0.1 - - [02/Oct/2024 17:40:26] "GET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4 HTTP/1.1" 200 -
+2024-10-02 17:42:03,916 - INFO - GET request received at /search_user_result
+2024-10-02 17:42:03,916 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- requested.
+2024-10-02 17:42:03,919 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- not found.
+2024-10-02 17:42:03,919 - INFO - 127.0.0.1 - - [02/Oct/2024 17:42:03] "[33mGET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- HTTP/1.1[0m" 404 -
+2024-10-02 18:09:16,917 - INFO - Starting the service and loading configuration.
+2024-10-02 18:09:16,918 - INFO - Loaded configuration file: config.ini
+2024-10-02 18:09:16,966 - INFO - Data loaded from SQLite database.
+2024-10-02 18:09:16,973 - INFO - Column formatting applied successfully.
+2024-10-02 18:09:17,022 - INFO - Data successfully converted to JSON.
+2024-10-02 18:09:17,024 - INFO - Starting the Flask server.
+2024-10-02 18:09:17,057 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1001
+ * Running on http://192.168.1.2:1001
+2024-10-02 18:09:17,057 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-02 18:09:17,058 - INFO -  * Restarting with stat
+2024-10-02 18:09:17,327 - INFO - Starting the service and loading configuration.
+2024-10-02 18:09:17,327 - INFO - Loaded configuration file: config.ini
+2024-10-02 18:09:17,367 - INFO - Data loaded from SQLite database.
+2024-10-02 18:09:17,374 - INFO - Column formatting applied successfully.
+2024-10-02 18:09:17,422 - INFO - Data successfully converted to JSON.
+2024-10-02 18:09:17,423 - INFO - Starting the Flask server.
+2024-10-02 18:09:17,439 - WARNING -  * Debugger is active!
+2024-10-02 18:09:17,465 - INFO -  * Debugger PIN: 864-681-636
+2024-10-02 18:09:29,132 - INFO - GET request received at /search_user_result
+2024-10-02 18:09:29,132 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- requested.
+2024-10-02 18:09:29,137 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- not found.
+2024-10-02 18:09:29,137 - INFO - 127.0.0.1 - - [02/Oct/2024 18:09:29] "[33mGET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4-- HTTP/1.1[0m" 404 -
+2024-10-02 18:09:32,796 - INFO - GET request received at /search_user_result
+2024-10-02 18:09:32,796 - INFO - User ID: 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 requested.
+2024-10-02 18:09:32,799 - INFO - user_id 8b9cdf59-96ce-43b8-bb72-8f5c405894f4 found.
+2024-10-02 18:09:32,800 - INFO - 127.0.0.1 - - [02/Oct/2024 18:09:32] "GET /search_user_result?user_id=8b9cdf59-96ce-43b8-bb72-8f5c405894f4 HTTP/1.1" 200 -
+2024-10-02 19:24:45,214 - INFO - Starting the service and loading configuration.
+2024-10-02 19:24:45,215 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:24:45,215 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:24:59,592 - INFO - Starting the service and loading configuration.
+2024-10-02 19:24:59,592 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:24:59,593 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:26:36,894 - INFO - Starting the service and loading configuration.
+2024-10-02 19:26:36,895 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:26:36,895 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:27:18,850 - INFO - Starting the service and loading configuration.
+2024-10-02 19:27:18,851 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:27:18,851 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:30:19,589 - INFO - Starting the service and loading configuration.
+2024-10-02 19:30:19,590 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:30:19,591 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:54:42,020 - INFO - Starting the service and loading configuration.
+2024-10-02 19:54:42,021 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:54:42,022 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:55:05,358 - INFO - Starting the service and loading configuration.
+2024-10-02 19:55:05,359 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:55:05,359 - ERROR - Error loading data: unable to open database file
+2024-10-02 19:57:14,625 - INFO - Starting the service and loading configuration.
+2024-10-02 19:57:14,626 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:57:14,678 - INFO - Data loaded from SQLite database.
+2024-10-02 19:57:14,686 - INFO - Column formatting applied successfully.
+2024-10-02 19:57:14,735 - INFO - Data successfully converted to JSON.
+2024-10-02 19:57:14,737 - INFO - Starting the Flask server.
+2024-10-02 19:57:14,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1001
+ * Running on http://192.168.1.2:1001
+2024-10-02 19:57:14,768 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-02 19:57:14,769 - INFO -  * Restarting with stat
+2024-10-02 19:57:15,063 - INFO - Starting the service and loading configuration.
+2024-10-02 19:57:15,063 - INFO - Loaded configuration file: config.ini
+2024-10-02 19:57:15,108 - INFO - Data loaded from SQLite database.
+2024-10-02 19:57:15,116 - INFO - Column formatting applied successfully.
+2024-10-02 19:57:15,164 - INFO - Data successfully converted to JSON.
+2024-10-02 19:57:15,166 - INFO - Starting the Flask server.
+2024-10-02 19:57:15,182 - WARNING -  * Debugger is active!
+2024-10-02 19:57:15,221 - INFO -  * Debugger PIN: 864-681-636
+2024-10-02 19:57:25,456 - INFO - GET request received at /get_all_results
+2024-10-02 19:57:25,458 - INFO - 127.0.0.1 - - [02/Oct/2024 19:57:25] "GET /get_all_results HTTP/1.1" 200 -
